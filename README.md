@@ -53,7 +53,7 @@ Marker1 is the Old Main at ASU, Marker2 is Hayden Library, and Marker3 is ASU Ga
 
 ## How to add my own markers?
 
-You are welcome to customize and add your own markers if you'd like to do something different. For the two templates, you can add your own markers by the following guide.
+You are welcomed to customize and add your own markers if you'd like to do something different. For the two templates, you can add your own markers by the following guide.
 
 ### How to add a location to the location-based AR template?
 
@@ -74,7 +74,7 @@ By reading the code you will find out they are location information of the three
 - `data-info-pane`: the ID of the HTML panel that will show up when the marker is tracked
 - `data-marker-name`: the name of the location marker
 
-To add a new place to track, you can simply edit/modify the current code here, or you can add a new `a-entity` with these three attributes.
+To add a new place to track, you can simply edit/modify the current code here, or you can add a new `a-entity` with these three attributes. Latitude and longitude of a place can be found in Google Map. 
 
 ### How to add an image to the image-based AR template?
 
@@ -86,11 +86,11 @@ It is a little tricky to add a new image marker. In the template file `explore_i
 <a-nft type="nft" url="x" id="nft-marker3" data-info-pane="nft-marker3-info" data-marker-name="ASU Gammage"></a-nft>
 ```
 
-They are simply the information of associated image markers, some of which are the same as those in the location-based template. The most important attribute here is `url` whose content is "x" in HTML but will be set dynamically by JavaScript when loaded. Due to a bug in the library, we have to use this weird workaround to make the image-tracking AR works on GitHub Pages. 
+They are simply information of associated image markers, some of which are the same as those in the location-based template. The most important attribute here is `url` whose content is "x" in HTML but will be set by JavaScript when loaded. Due to a bug in the library, we have to use this weird workaround to make the image-tracking AR works on GitHub Pages. 
 
 To make your development easier, if you'd like to add your own images, we highly recoommend that you modify and replace existing markers instead of adding a new one. To do this, please follow these steps:
 
-1. Visit [the marker creator](https://carnaux.github.io/NFT-Marker-Creator/), name your image as "marker1", "marker2", or "marker3" (the name of an exising marker to replace), and then upload the image to the creator. In the creator you will find a scale of confidence whcih shows you the quality of your marker. Your marker must be complex enough for the image-based AR to work. The images we provide all have 4-5 stars.
+1. Visit [the marker creator](https://carnaux.github.io/NFT-Marker-Creator/), name your image as "marker1", "marker2", or "marker3" (the name of an exising marker to replace), and then upload the image to the creator. In the creator you will find a scale of confidence whcih shows you the quality of your marker. Your marker must be complex enough for the image-based AR to work smoothly. The default images we provide all have 4-5 stars.
 1. Click "Generate" to start the conversion and download the marker files.
 1. Unzip the marker files and then copy to the folder `markers`. Overwrite any existing files in that folder.
 1. Once you are done, bring up your image and then test it on your website.
