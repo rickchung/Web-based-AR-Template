@@ -90,7 +90,10 @@ They are simply information of associated image markers, some of which are the s
 
 To make your development easier, if you'd like to add your own images, we highly recoommend that you modify and replace existing markers instead of adding a new one. To do this, please follow these steps:
 
-1. Visit [the marker creator](https://carnaux.github.io/NFT-Marker-Creator/), name your image as "marker1", "marker2", or "marker3" (the name of an exising marker to replace), and then upload the image to the creator. In the creator you will find a scale of confidence whcih shows you the quality of your marker. Your marker must be complex enough for the image-based AR to work smoothly. The default images we provide all have 4-5 stars.
+1. Rename your image as "marker1", "marker2", or "marker3" (the name of an exising marker to replace).
+1. Visit [the marker creator](https://carnaux.github.io/NFT-Marker-Creator/). 
+1. In the creator you will find a scale of confidence whcih shows you the quality of your marker. Your marker must be complex enough for the image-based AR to work smoothly. The default images we provide all have 4-5 stars.
+1. Upload the image to the creator.
 1. Click "Generate" to start the conversion and download the marker files.
 1. Unzip the marker files and then copy to the folder `markers`. Overwrite any existing files in that folder.
 1. Once you are done, bring up your image and then test it on your website.
