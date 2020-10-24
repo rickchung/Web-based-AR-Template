@@ -1,5 +1,7 @@
 # AR Template for CPI101 Fall2020 at ASU Tempe, Arizona
 
+![](https://media.giphy.com/media/mK4R969pndOCnqUUSH/giphy.gif)
+
 You can directly clone or download this repository as template for your project milestone 3. We provide two versions of AR templates: image-based (in the folder *Image-Based*) AR and location-based AR (*Location-Based*). You can choose either one of them for your project as long as you test and make sure the template works on your own device. 
 
 ## How to test the template?
