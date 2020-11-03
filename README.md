@@ -17,7 +17,7 @@ How-to:
 
 ## Which files do I need?
 
-**Note: Plese do not move the existing files around into new folders.** The AR template will not work if files are organized in a different way due to some bugs. We highly recommend that you just clone the whole repository and directly work on the files of the template you'd like to use. 
+**Note: Please do not move the existing files around into new folders.** The AR template will not work if files are organized in a different way due to some bugs. We highly recommend that you just clone the whole repository and directly work on the files of the template you'd like to use. 
 
 To use the image-based tracking, you need the following files:
 
