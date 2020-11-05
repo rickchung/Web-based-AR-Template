@@ -1,3 +1,5 @@
+// Required: utils.js, jQuery, A-Frame
+
 window.onload = function () {
     // Update the HUD info when the location is close
     let locThreshold = 30; // meters
