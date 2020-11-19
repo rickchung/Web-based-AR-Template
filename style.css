@@ -28,7 +28,7 @@ body {
     top: -500;
 }
 
-div.riskRating {
-    text-align:right;
+.riskRating {
+    left:100%;
 }
 
