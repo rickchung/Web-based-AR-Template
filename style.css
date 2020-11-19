@@ -40,7 +40,7 @@ body {
 }
 
 .riskRating {
-    float:right;
+    float:left;
     text-align:right;
     width:50%;
     background-color: rgba(0,0,0,0.1);
