@@ -1,7 +1,7 @@
 function riskRating() {
     var rand = Math.floor(Math.random() * 101);
 
-    if(rand >= 0 && rand < 10) {
+    if(rand > -1 && rand < 10) {
         document.getElementById('rating').innerHTML = rand;
         document.getElementById('rating').style.color = "#00cc99";
     } else if(rand > 10 && rand < 20) {
@@ -28,7 +28,7 @@ function riskRating() {
     } else if(rand > 80 && rand < 90) {
         document.getElementById('rating').innerHTML = rand;
         document.getElementById('rating').style.color = "#ff3300";
-    } else if(rand > 90 && rand <= 100) {
+    } else if(rand > 90 && rand < 101) {
         document.getElementById('rating').innerHTML = rand;
         document.getElementById('rating').style.color = "#990000";
     }
