@@ -1,7 +1,7 @@
 function riskRating() {
     var rand = Math.floor(Math.random() * 101);
 
-    document.getElementById('ratingdebug').innerHTML = rand;
+    //document.getElementById('ratingdebug').innerHTML = rand;
 
     if(rand > -1 && rand < 10) {
         document.getElementById('rating').innerHTML = rand;
