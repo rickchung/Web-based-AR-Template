@@ -34,11 +34,13 @@ body {
 }
 
 .paneTitle {
+    float:left;
     width:50%;
     background-color: rgba(0,0,0,0.1);
 }
 
 .riskRating {
+    float:right;
     text-align:right;
     width:50%;
     background-color: rgba(0,0,0,0.1);
