@@ -31,18 +31,17 @@ body {
 .topContainer {
     border: 3px solid #fff;
     padding: 20px;
+    background-color: rgba(0,0,0,0.1);
 }
 
 .paneTitle {
     float:left;
     width:50%;
-    background-color: rgba(0,0,0,0.1);
 }
 
 .riskRating {
     float:left;
     text-align:right;
     width:50%;
-    background-color: rgba(0,0,0,0.1);
 }
 
