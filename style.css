@@ -34,13 +34,12 @@ body {
 }
 
 .paneTitle {
-    bottom:20px;
-    float:left;
+    display:inline-block;
     width:50%;
 }
 
 .riskRating {
-    float:left;
+    display:inline-block;
     text-align:right;
     width:50%;
 }
