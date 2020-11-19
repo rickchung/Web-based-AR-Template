@@ -58,7 +58,7 @@
         </script>
     </head>
 
-    <body style="overflow: hidden; margin: 0">
+    <body style="overflow: hidden; margin: 0" onload="riskRating()">
         
         <!-- ========================================================================================== -->
         <!-- Fill in the content BELOW this line -->
@@ -69,7 +69,7 @@
                     <span class="badge bg-dark"><h1 style="display:inline;"><strong>Old Main</strong></h1></span>
                 </div>
                 <div class="riskRating">
-                    <span class="badge bg-dark"><h3 style="display:inline;">Risk Rating: </h3><h3 id="rating" style="display:inline;"><script>riskRating()</script></h3></span>
+                    <span class="badge bg-dark"><h3 style="display:inline;">Risk Rating: </h3><h3 id="rating" style="display:inline;"></h3></span>
                 </div>
             </div>
             <div id="chartContainer" style="height: 150px; width: 100%;"></div>
