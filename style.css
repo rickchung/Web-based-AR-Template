@@ -30,15 +30,16 @@ body {
 
 .paneTitle {
     margin-left:3px;
-    height:150px;
+    height:50px;
     width:100%;
     background-color: rgba(0,0,0,0.1);
 }
 
 .riskRating {
+    display:inline;
     text-align:right;
     margin-right:3px;
-    height:150px;
+    height:50px;
     width:100%;
     background-color: rgba(0,0,0,0.1);
 }
