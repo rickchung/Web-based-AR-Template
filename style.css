@@ -29,18 +29,17 @@ body {
 }
 
 .paneTitle {
-    display:inline;
-    text-align:left;
     margin-left:3px;
     height:150px;
+    width:100%;
     background-color: rgba(0,0,0,0.1);
 }
 
 .riskRating {
-    display:inline;
     text-align:right;
     margin-right:3px;
     height:150px;
+    width:100%;
     background-color: rgba(0,0,0,0.1);
 }
 
