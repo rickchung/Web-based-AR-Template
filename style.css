@@ -29,11 +29,12 @@ body {
 }
 
 .topContainer {
-    padding: 10px;
+    padding: 20px;
     background-color: rgba(0,0,0,0.1);
 }
 
 .paneTitle {
+    bottom:20px;
     float:left;
     width:50%;
 }
