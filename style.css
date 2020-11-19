@@ -28,19 +28,19 @@ body {
     top: -500;
 }
 
+.topContainer {
+    border: 3px solid #fff;
+    padding: 20px;
+}
+
 .paneTitle {
-    margin-left:3px;
-    height:50px;
-    width:100%;
+    width:50%;
     background-color: rgba(0,0,0,0.1);
 }
 
 .riskRating {
-    display:inline;
     text-align:right;
-    margin-right:3px;
-    height:50px;
-    width:100%;
+    width:50%;
     background-color: rgba(0,0,0,0.1);
 }
 
