@@ -1,0 +1,21 @@
+.button{
+	margin: 350px;
+	text-align: center;
+
+}
+
+body {
+    background-image: url("asuphoto.jpg");
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#header {
+    position: relative;
+    color: white;
+    font-family: monospace;
+    font-size: 50px;
+    text-align: center;
+    top: -500;
+}
+
