@@ -25,7 +25,7 @@
             
             var chart = new CanvasJS.Chart("chartContainer", {
                 animationEnabled: true,
-                theme: "light2", // "light1", "light2", "dark1", "dark2"
+                theme: "light2",
                 title:{
                     text: "Peak Hours"
                 },
@@ -34,7 +34,7 @@
                 },
                 data: [{        
                     type: "column",  
-                      color: "lightsteelblue",
+                    color: "lightsteelblue",
                     dataPoints: [      
                         { y: 1000, label: "8:00am" },
                         { y: 2000,  label: "9:00am" },
@@ -44,9 +44,9 @@
                         { y: 10000, label: "1:00pm" },
                         { y: 16000,  label: "2:00pm" },
                         { y: 13500,  label: "3:00pm" },
-                          { y: 10000, label: "4:00pm" },
-                          { y: 12500, label: "5:00pm"},
-                          { y: 9000, label: "6:00pm"},
+                        { y: 10000, label: "4:00pm" },
+                        { y: 12500, label: "5:00pm"},
+                        { y: 9000, label: "6:00pm"},
                     ]
                 }]
             });
@@ -70,7 +70,7 @@
                     <h3 style="display:inline;">Risk Rating: </h3><h3 id="rating" style="display:inline;"><script>riskRating()</script></h3>
                 </div>
             </div>
-            <div id="chartContainer" style="height: 370px; width: 100%;"></div>
+            <div id="chartContainer" style="height: 150px; width: 100%;"></div>
             <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
             <div class="maskRequired">
                 <p><strong>Mask required? Yes</strong></p><br>
