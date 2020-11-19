@@ -1,6 +1,8 @@
 function riskRating() {
     var rand = Math.floor(Math.random() * 101);
 
+    document.getElementById('ratingdebug').innerHTML = rand;
+
     if(rand > -1 && rand < 10) {
         document.getElementById('rating').innerHTML = rand;
         document.getElementById('rating').style.color = "#00cc99";
