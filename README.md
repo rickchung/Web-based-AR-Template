@@ -6,7 +6,7 @@ You can directly clone or download this repository as template for your project 
 
 ## How to test the template?
 
-You can test the templates here: [https://rickchung.github.io/CPI101F20-Project-AR-Template/](https://rickchung.github.io/CPI101F20-Project-AR-Template/).
+You can test the templates here: [https://rickchung.github.io/Web-based-AR-Template/](https://rickchung.github.io/Web-based-AR-Template/).
 
 How-to:
 
